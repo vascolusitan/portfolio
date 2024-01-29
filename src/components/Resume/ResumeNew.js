@@ -25,15 +25,23 @@ function ResumeNew() {
             variant="contained"
             href={pdf}
             startIcon={<AiOutlineDownload />}
-            style={{maxWidth: "180px"}}
+            style={{ maxWidth: "180px" }}
           >
             Download CV
           </Button>
         </Row>
 
         <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center" style={{width:"100%"}}>
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} renderTextLayer={false}/>
+          <Document
+            file={pdf}
+            className="d-flex justify-content-center"
+            style={{ width: "100%" }}
+          >
+            <Page
+              pageNumber={1}
+              scale={width > 786 ? 1.7 : 0.6}
+              renderTextLayer={false}
+            />
           </Document>
         </Row>
 
@@ -43,7 +51,7 @@ function ResumeNew() {
             variant="contained"
             href={pdf}
             startIcon={<AiOutlineDownload />}
-            style={{maxWidth: "180px"}}
+            style={{ maxWidth: "180px" }}
           >
             Download CV
           </Button>

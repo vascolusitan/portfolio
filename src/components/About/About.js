@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
 import Toolstack from "./Toolstack";
-import MyTimeline from "./MyTimeline"
+import MyTimeline from "./MyTimeline";
 
 function About() {
   return (
@@ -20,17 +20,19 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              How I became a <strong className="primary-color">Software Engineer</strong>
+              How I became a{" "}
+              <strong className="primary-color">Software Engineer</strong>
             </h1>
             <AboutCard />
           </Col>
-          <Col 
-            md={6} 
+          <Col
+            md={6}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
               paddingBottom: "50px",
-            }}>
+            }}
+          >
             <MyTimeline />
           </Col>
         </Row>
@@ -44,7 +46,6 @@ function About() {
           <strong className="primary-color">Tools</strong> I use
         </h1>
         <Toolstack />
-
       </Container>
     </Container>
   );

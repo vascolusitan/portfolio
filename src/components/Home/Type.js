@@ -11,7 +11,7 @@ function Type() {
           "Mainly Backend",
           "So Don't Open This Page Src Code",
           "PLEASE...",
-          "Thank You :)"
+          "Thank You :)",
         ],
         autoStart: true,
         loop: true,

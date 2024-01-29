@@ -4,7 +4,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiIntellijidea
+  SiIntellijidea,
 } from "react-icons/si";
 import { BsMicrosoftTeams } from "react-icons/bs";
 
@@ -26,7 +26,6 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
       </Col>
-
     </Row>
   );
 }

@@ -16,12 +16,7 @@ function NavBar() {
   const [expand, updateExpanded] = useState(false);
 
   return (
-    <Navbar
-      expanded={expand}
-      fixed="top"
-      expand="md"
-      className="sticky"
-    >
+    <Navbar expanded={expand} fixed="top" expand="md" className="sticky">
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <img src={myself} className="profile-image" alt="brand" />

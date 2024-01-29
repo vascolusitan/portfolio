@@ -1,9 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,12 +16,12 @@ function Footer() {
         <Col md="4">
           <ul className="footer-icons" style={{ color: "white" }}>
             <li className="footer-phone-contact">
-              <a><MdOutlinePhoneAndroid /></a>
+              <a>
+                <MdOutlinePhoneAndroid />
+              </a>
             </li>
-            <li className="footer-phone-contact">
-             &#40;+351&#41; 917 304 667
-            </li>
-          </ul> 
+            <li className="footer-phone-contact">&#40;+351&#41; 917 304 667</li>
+          </ul>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -32,7 +29,7 @@ function Footer() {
               <a
                 href="https://github.com/vascolusitan"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
@@ -42,7 +39,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/vasco-lusitano-55897823a/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -52,7 +49,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/vascolusitano12"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

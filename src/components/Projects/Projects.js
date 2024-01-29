@@ -40,7 +40,7 @@ function Projects() {
               backend="Java, C"
               database="Oracle"
               company="CGI"
-              companyLink="https://www.cgi.com/en"              
+              companyLink="https://www.cgi.com/en"
             />
           </Col>
 
@@ -56,7 +56,6 @@ function Projects() {
               companyLink="https://home.kuehne-nagel.com/en/"
             />
           </Col>
-
         </Row>
       </Container>
     </Container>

@@ -7,14 +7,14 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava
+  DiJava,
 } from "react-icons/di";
-import { 
-  SiPostgresql, 
+import {
+  SiPostgresql,
   SiElasticsearch,
   SiGitlab,
   SiRedhatopenshift,
-  SiDocker
+  SiDocker,
 } from "react-icons/si";
 
 function Techstack() {
