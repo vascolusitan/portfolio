@@ -3,28 +3,51 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
   SiIntellijidea,
+  SiGitlab,
+  SiRedhatopenshift,
+  SiDocker,
 } from "react-icons/si";
-import { BsMicrosoftTeams } from "react-icons/bs";
+import { DiGit, DiGithubBadge, DiBitbucket } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <DiGit />
+        <p>Git</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiGitlab />
+        <p>GitLab</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithubBadge />
+        <p>GitHub</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBitbucket />
+        <p>BitBucket</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+        <p>Docker</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedhatopenshift />
+        <p>Openshift</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+        <p>Postman</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <BsMicrosoftTeams />
+        <SiIntellijidea />
+        <p>IntelliJ</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiVisualstudiocode />
+        <p>VS Code</p>
       </Col>
     </Row>
   );

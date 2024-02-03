@@ -39,9 +39,7 @@ function About() {
         <h1 className="project-heading">
           Professional <strong className="primary-color">Skillset </strong>
         </h1>
-
         <Techstack />
-
         <h1 className="project-heading">
           <strong className="primary-color">Tools</strong> I use
         </h1>

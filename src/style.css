@@ -41,7 +41,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #051308;
-  background-image: url(./Assets/pre.svg);
+  background-image: url(./Assets/icons/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -507,7 +507,6 @@ button:focus {
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
-  padding: 10px !important;
   opacity: 0.93 !important;
   border: 1.7px solid rgba(137, 230, 167, 0.637) !important;
   vertical-align: middle !important;
@@ -516,6 +515,12 @@ button:focus {
   display: table !important;
   box-shadow: 4px 5px 4px 3px rgba(10, 168, 4, 0.137) !important;
   overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons p {
+  font-size: 16px !important;
+  color: rgba(115, 230, 144, 0.883) !important;
   transition: all 0.4s ease 0s !important;
 }
 
@@ -530,9 +535,15 @@ button:focus {
   overflow: hidden !important;
   border: 2.2px solid rgba(115, 230, 144, 0.883) !important;
 }
-.tech-icon-images {
-  padding: 20px !important;
-  line-height: 1.6 !important;
+
+.tech-icons:hover p {
+  color: #30db47;
+  text-shadow: 
+    0 0 5px #30db47, 
+    0 0 25px #30db47, 
+    0 0 50px #30db47, 
+    0 0 75px #30db47, 
+    0 0 100px #30db47;
 }
 
 .quote-card-view {
