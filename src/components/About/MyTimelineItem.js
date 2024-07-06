@@ -8,21 +8,22 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import Typography from "@mui/material/Typography";
 
 function MyTimelineItem(props) {
+  const { date, icon, title, text } = props;
   return (
     <TimelineItem>
       <TimelineOppositeContent sx={{ m: "auto 0" }} variant="body2">
-        {props.date}
+        {date}
       </TimelineOppositeContent>
       <TimelineSeparator>
         <TimelineConnector />
-        <TimelineDot sx={{ bgcolor: "#48ad57" }}>{props.icon}</TimelineDot>
+        <TimelineDot sx={{ bgcolor: "#48ad57" }}>{icon}</TimelineDot>
         <TimelineConnector />
       </TimelineSeparator>
       <TimelineContent sx={{ py: "12px", px: 2 }}>
         <Typography variant="h6" component="span" color="#5ff885">
-          {props.title}
+          {title}
         </Typography>
-        <Typography>{props.text}</Typography>
+        <Typography>{text}</Typography>
       </TimelineContent>
     </TimelineItem>
   );

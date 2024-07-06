@@ -492,6 +492,19 @@ button:focus {
   padding-right: 5px !important;
 }
 
+.fading-line-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0 50px;
+}
+.fading-line {
+  width: 80%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #36fb3d, transparent);
+  border-radius: 2.5px;
+}
+
 /* --------- */
 /* About */
 /* --------- */

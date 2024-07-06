@@ -7,6 +7,8 @@ import {
   SiGitlab,
   SiRedhatopenshift,
   SiDocker,
+  SiKubernetes,
+  SiAmazonaws
 } from "react-icons/si";
 import { DiGit, DiGithubBadge, DiBitbucket } from "react-icons/di";
 
@@ -36,6 +38,14 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiRedhatopenshift />
         <p>Openshift</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
+        <p>Kubernets</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws />
+        <p>AWS</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

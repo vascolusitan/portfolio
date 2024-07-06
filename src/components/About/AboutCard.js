@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { MdOutlinePhoneAndroid, MdOutlineMail } from "react-icons/md";
 
 function AboutCard() {
   return (
@@ -38,20 +37,6 @@ function AboutCard() {
             Feel free to reach out to me for any opportunities, or inquiries. I
             look forward to connect with you!
           </p>
-          <ul>
-            <li className="project-card-technologies">
-              <MdOutlinePhoneAndroid className="primary-color spacing" />
-              <strong className="primary-color">
-                &#40;+351&#41; 917 304 667
-              </strong>
-            </li>
-            <li className="project-card-technologies">
-              <MdOutlineMail className="primary-color spacing" />
-              <strong className="primary-color">
-                vasco.f.lusitano@gmail.com
-              </strong>
-            </li>
-          </ul>
         </blockquote>
       </Card.Body>
     </Card>

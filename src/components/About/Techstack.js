@@ -14,6 +14,7 @@ import {
   SiOracle,
   SiRabbitmq,
   SiApachekafka,
+  SiKotlin
 } from "react-icons/si";
 import { TbCloudCog } from "react-icons/tb";
 import { FaRegFileCode } from "react-icons/fa";
@@ -36,6 +37,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <p>Python</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKotlin />
+        <p>Kotlin</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
