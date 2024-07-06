@@ -31,7 +31,7 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img className="home-pic d-block mx-auto" src={homepic} />
+              <img alt="Home" className="home-pic d-block mx-auto" src={homepic} />
             </Col>
           </Row>
         </Container>

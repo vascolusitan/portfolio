@@ -1,12 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -14,14 +11,7 @@ function Footer() {
           <h3>Developed by Vasco Lusitano</h3>
         </Col>
         <Col md="4">
-          <ul className="footer-icons" style={{ color: "white" }}>
-            <li className="footer-phone-contact">
-              <a>
-                <MdOutlinePhoneAndroid />
-              </a>
-            </li>
-            <li className="footer-phone-contact">&#40;+351&#41; 917 304 667</li>
-          </ul>
+          <h3>2024</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
