@@ -18,7 +18,7 @@ function NavBar() {
   return (
     <Navbar expanded={expand} fixed="top" expand="md" className="sticky">
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/portfolio" className="d-flex">
           <img src={myself} className="profile-image" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
